@@ -1,0 +1,76 @@
+
+
+
+.projekat{
+    position: absolute;
+    top: 315vh;
+    height: 190vh;
+    width: 100%;
+    z-index:6;
+    transform: skewY(-4deg);
+      border-top: 8px solid lightslategray;
+      background-color: whitesmoke;
+      /* border-bottom: 8px solid lightslategray; */
+    
+}
+
+
+.projekatRavno{
+    height: 100%;
+    width: 100%;
+    z-index: 6;
+    transform: skewY(4deg);
+    font-family: 'Quicksand', sans-serif;
+  
+  
+  }
+
+  .slike{
+    height: 35vh;
+    width: 100%;
+    cursor: pointer;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+
+
+    
+
+
+.projekat{
+  position: absolute;
+  top: 735vh;
+  height: 500vh;
+  width: 100%;
+  z-index:6;
+  transform: skewY(-4deg);
+    border-top: 8px solid lightslategray;
+    background-color: whitesmoke;
+    /* border-bottom: 8px solid lightslategray; */
+  
+}
+
+
+.projekatRavno{
+  height: 100%;
+  width: 100%;
+  z-index: 6;
+  transform: skewY(4deg);
+  font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.slike{
+  height: 45vh;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+
+
+  }
