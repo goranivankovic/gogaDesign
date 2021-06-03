@@ -9,6 +9,7 @@ import {Link} from 'react-scroll'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Media from 'react-media'
+import emailjs from 'emailjs-com'
 
 
 
@@ -94,9 +95,14 @@ export default class AllTogether extends Component {
         message:'',
         messageText:'',
         kontaktText:'',
+
+        formIme:'',
+        formTelephone:'',
+        formEmail:'',
+        formMessage:'',
     
 
-        lazDivSlika:'',
+    
 
 
 
@@ -111,6 +117,9 @@ export default class AllTogether extends Component {
 
     this.skupiDiv=this.skupiDiv.bind(this)
     this.povecajDiv=this.povecajDiv.bind(this)
+
+
+    this.sendEmailAndMessage=this.sendEmailAndMessage.bind(this)
  
 
 
@@ -256,6 +265,23 @@ povecajDiv(b){
     b.target.style.transform='scale(1)'
 
 }
+
+sendEmailAndMessage(p){
+  p.preventDefault();
+
+  
+
+  emailjs.sendForm('gmail', 'template_vs5t6sd',p.target,'user_CUPedB8OkkfuUfSRyzgAo')
+  .then((result) => {
+    console.log(result.text);
+  }, (error) => {
+    console.log(error.text);
+  });
+  p.target.reset()
+
+}
+
+
 
 
 
@@ -1170,25 +1196,25 @@ render() {
 
 
                                 <Col md={6}>
-                                <Form>
+                                <Form onSubmit={this.sendEmailAndMessage}>
                                   <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.nameLastname}</Form.Label>
-                                    <Form.Control type="text" placeholder='...' />
+                                    <Form.Control type="text" placeholder='...' name="name" />
                                    </Form.Group>
 
                                    <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.phoneNumber}</Form.Label>
-                                    <Form.Control  type="tel" placeholder='...' />
+                                    <Form.Control  type="tel" placeholder='...' name="telephone" />
                                    </Form.Group>
 
                                    <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.emailAdressa}</Form.Label>
-                                    <Form.Control  type="email" placeholder='...' />
+                                    <Form.Control  type="email" placeholder='...' name="email" required={true}/>
                                    </Form.Group>
 
                    <Form.Group className="mb-3" controlId="formBasicEmail">
                    <Form.Label>{this.state.message}</Form.Label>
-                 <Form.Control as="textarea"placeholder={this.state.messageText} style={{ height: '100px' }}/>
+                 <Form.Control as="textarea"placeholder={this.state.messageText} name="message" required={true} style={{ height: '100px' }}/>
                   </Form.Group>                              
 
                              
@@ -1196,6 +1222,8 @@ render() {
                              Submit
                           </Button>
                             </Form>
+
+                            
 
 
                                 </Col>
@@ -1966,25 +1994,25 @@ render() {
 
 
                                 <Col md={6}>
-                                <Form>
+                                <Form onSubmit={this.sendEmailAndMessage}>
                                   <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.nameLastname}</Form.Label>
-                                    <Form.Control type="text" placeholder='...' />
+                                    <Form.Control type="text" placeholder='...' name="name" />
                                    </Form.Group>
 
                                    <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.phoneNumber}</Form.Label>
-                                    <Form.Control  type="tel" placeholder='...' />
+                                    <Form.Control  type="tel" placeholder='...' name="telephone" />
                                    </Form.Group>
 
                                    <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.emailAdressa}</Form.Label>
-                                    <Form.Control  type="email" placeholder='...' />
+                                    <Form.Control  type="email" placeholder='...' name="email" required={true}/>
                                    </Form.Group>
 
                    <Form.Group className="mb-3" controlId="formBasicEmail">
                    <Form.Label>{this.state.message}</Form.Label>
-                 <Form.Control as="textarea"placeholder={this.state.messageText} style={{ height: '100px' }}/>
+                 <Form.Control as="textarea"placeholder={this.state.messageText} name="message" required={true} style={{ height: '100px' }}/>
                   </Form.Group>                              
 
                              
