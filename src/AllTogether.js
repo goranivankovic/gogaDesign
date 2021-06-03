@@ -305,7 +305,7 @@ render() {
           </div> 
 
           <div className={navicStyles.bars}>
-             {!this.state.laz ? <VscThreeBars className="bar" onClick={()=>{
+             {!this.state.laz ? <VscThreeBars className="bar h4" onClick={()=>{
              
               
                  let navic =document.getElementById('navic')
