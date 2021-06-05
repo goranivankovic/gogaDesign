@@ -23,6 +23,7 @@ import{SiJavascript,SiBootstrap}from 'react-icons/si'
 import{DiNodejs,DiMongodb,DiGithubAlt} from 'react-icons/di'
 import {ImCross} from 'react-icons/im'
 import {VscThreeBars} from 'react-icons/vsc'
+import{AiFillPhone,AiFillLinkedin,AiFillGithub,AiOutlineGoogle} from 'react-icons/ai'
 
 
 
@@ -51,6 +52,7 @@ import razvojStyles from './styles/Tehnlogije.module.css'
 import projekatStyles from './styles/Projects.module.css'
 import cenaStyles from './styles/Cena.module.css'
 import kontatStyles from './styles/Kontakt.module.css'
+import footerStyles from './styles/Footer.module.css'
 
 
 
@@ -1205,6 +1207,7 @@ render() {
                                    <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>{this.state.phoneNumber}</Form.Label>
                                     <Form.Control  type="tel" placeholder='...' name="telephone" />
+                                  
                                    </Form.Group>
 
                                    <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -1237,6 +1240,103 @@ render() {
                 </Container>
 
                           </div> 
+
+
+
+                          
+                        <div className={footerStyles.footer}>
+
+<Container className={footerStyles.ravnoFooter}>
+  <Row>
+
+    <Col xs={12} className="text-center h5">
+      <br></br>
+      <br></br>
+ 
+      gogaDesign<FiHexagon className="hex text-danger"/> 2021 || All Rights Reserved
+    </Col>
+
+         
+<Col sm={6} className="h6 text-center">
+<br></br>
+<br></br>
+
+
+gogadesignweb@gmail.com
+
+</Col>
+<Col sm={6} className="h6 text-center">
+<br></br>
+<br></br>
+
+
+<AiFillPhone />  +381 / 064-415-68-13
+
+</Col>
+
+
+<Col xs={4} className="h6  text-center">
+
+
+
+<br></br>
+<br></br>
+<br></br>
+
+  <a href="https://github.com/goranivankovic" className="h1 text-dark"><AiFillGithub/></a>
+
+</Col>
+<Col xs={4} className="h6 text-center">
+<br></br>
+<br></br>
+<br></br>
+
+
+  <a href="https://www.linkedin.com/in/goran-ivankovi%C4%87-86b19b1b9/" className="h1 text-dark"><AiFillLinkedin/></a>
+
+</Col>
+<Col xs={4} className="h6 text-center">
+<br></br>
+<br></br>
+<br></br>
+
+
+  <a href="https://www.google.com/" className="h1 text-dark"><AiOutlineGoogle /></a>
+
+</Col>
+
+
+
+
+
+
+
+
+
+
+  
+  </Row>
+</Container>
+  
+
+
+</div>
+
+
+
+
+                          
+
+
+
+
+
+
+                    
+
+
+
+
 
 
 
@@ -2033,6 +2133,88 @@ render() {
                 </Container>
 
                           </div> 
+
+
+
+
+
+                        <div className={footerStyles.footer}>
+
+                          <Container className={footerStyles.ravnoFooter}>
+                            <Row>
+
+                              <Col xs={12} className="text-center h4">
+                                <br></br>
+                                <br></br>
+                           
+                                gogaDesign<FiHexagon className="hex text-danger"/> 2021 || All Rights Reserved
+                              </Col>
+
+                                   
+                         <Col sm={6} className="h5">
+                         <br></br>
+                         <br></br>
+              
+
+                         gogadesignweb@gmail.com
+
+                         </Col>
+                         <Col sm={6} className="h5">
+                         <br></br>
+                         <br></br>
+                    
+
+                          <AiFillPhone />  +381 / 064-415-68-13
+
+                         </Col>
+
+
+                         <Col xs={4} className="h5  text-center">
+
+       
+
+                         <br></br>
+                         <br></br>
+                         <br></br>
+
+                            <a href="https://github.com/goranivankovic" className="h1 text-dark"><AiFillGithub/></a>
+
+                         </Col>
+                         <Col xs={4} className="h5 text-center">
+                         <br></br>
+                         <br></br>
+                         <br></br>
+                     
+
+                            <a href="https://www.linkedin.com/in/goran-ivankovi%C4%87-86b19b1b9/" className="h1 text-dark"><AiFillLinkedin/></a>
+
+                         </Col>
+                         <Col xs={4} className="h5 text-center">
+                         <br></br>
+                         <br></br>
+                         <br></br>
+                   
+
+                            <a href="https://www.google.com/" className="h1 text-dark"><AiOutlineGoogle /></a>
+
+                         </Col>
+
+                
+
+              
+                      
+               
+                   
+
+
+
+                            
+                            </Row>
+                          </Container>
+                            
+
+
+                        </div>
 
 
 
