@@ -427,7 +427,7 @@ render() {
            
        
        }}> {this.state.navic2}</Link></li>
-       <li><Link to="projekti"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200} delay={200} isDynamic={true} onClick={()=>{
+       <li><Link to="projekti"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200} isDynamic={true} onClick={()=>{
  
 
 
@@ -1390,7 +1390,7 @@ gogadesignweb@gmail.com
            
        
        }}> <Link to="tehnologija"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200} delay={200} isDynamic={true}> {this.state.navic2}</Link></li>
-       <li><Link to="projekti"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200} delay={200} isDynamic={true}>{this.state.navic3}</Link></li>
+       <li><Link to="projekti"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200}  isDynamic={true}>{this.state.navic3}</Link></li>
        <li><Link to="cene"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200} delay={600} isDynamic={true}>{this.state.navic4}</Link></li>
       <li><Link to="kontakt"spy={true} smooth={true} hashSpy={true} offset={0} duration={1200} delay={600} delay={2000} isDynamic={true} >{this.state.navic5}</Link></li>
 
