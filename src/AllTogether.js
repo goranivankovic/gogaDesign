@@ -132,18 +132,18 @@ componentDidMount(){
         navic1:'Početna',
         navic2:'Tehnologije',
         navic3:'Projekti',
-        navic4:'Cене',
+        navic4:'Cеnе',
         navic5:'Kontakt',
         laz:false,
         ostvariSvojeSnove:'Ostvari svoje snove',
         navic6:  <ReactCountryFlag countryCode="RS" svg />,
         uslugeNaslov:'Naše Usluge',
-        uslugeWeb:"Konsultacije i razvoj za izgradnju Vašeg profila na internetu.Nudimo usluge dizajna i razvoja,vaših internet stranica,e commerce prodavnica,prepravke i dorada starijih internet stranica.",
-        uslugeEcomm:'Rješenja za e-commerce sajtove za bilo kakvu skalu web prodaje. Mi nudimo integraciju sa najpopularnijim načinima plaćanja,PayPal i konvecionalnu vrsta plaćanja.',
-        uslugeApi:'Izrada najboljih API, za vas biznis.Ucinite da vas biznis predje na drugi nivo, i budite u toku sa najnovijim tehnlogijama.Izrada API po meri za vas biznisa : mali,srednji,profesionalni biznis model.',
-        uslugeFull:'Izrada full stack websajtova ,e-commerc prodavnica.Sa kustum domejnom , i ssl sertifikatom.Integrisanje data baze sa login i signup stranicom sa ssl sertifikatom.Zajedno do resenja u tri koraka :Planiranje,Dizajn,Pustanje u rad.',
-        tehnolgijeNaslov:'Tehnlogije',
-        tehnolgijeDonjText:'Budite u koraku sa vremenom i najnovijim tehnolgijama. Izbor je na vama.',
+        uslugeWeb:"Konsultacije za izgradnju i razvoj Vašeg profila na internetu. Nudimo usluge dizajna i razvoja Vaših internet stranica, e-commerce prodavnica, prepravke i modernizacija starijih internet stranica.",
+        uslugeEcomm:'Rešenja za e-commerce sajtove za web prodaju. Mi nudimo integraciju sa najpopularnijim načinima plaćanja (PayPal i konvecionalnu vrsta plaćanja).',
+        uslugeApi:'Izrada najboljih API (Application program interface) za Vaš biznis. Učinite da Vaš biznis pređe na drugi nivo, budite u toku sa najnovijim tehnologijama. Izrada API po meri Vašeg biznisa: mali, srednji, profesionalni biznis model.',
+        uslugeFull:'Izrada full stack web sajtova i e-commerce prodavnica. Sa custom domain-om i ssl sertifikatom. Integrisanje data baze sa Log in i Sign up stranicom sa ssl sertifikatom. Zajedno do rešenja u tri koraka: Planiranje, Dizajn, Puštanje u rad.',
+        tehnolgijeNaslov:'Tehnologije',
+        tehnolgijeDonjText:'Budite u koraku sa vremenom i najnovijim tehnologijama. Izbor je na Vama.',
         projektiNaslov:'Projekti',
 
 
@@ -152,19 +152,19 @@ componentDidMount(){
 
 
         tehnlogijeIzradaNaslov:'Proizvodnja u tri koraka:',
-        tehnologijeIzrada1:'Broj stranica - do 10 Mi popunjavamo do 10 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
-        tehnologijeIzrada2:'Broj stranica - neograničen Mi popunjavamo do 20 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
-        tehnologijeIzrada3:'Broj stranica - neograničen Mi popunjavamo do 30 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Katalog proizvoda Neograničen broj kategorija Neograničen broj proizvoda Napredna SEO optimizacija.',
+        tehnologijeIzrada1:'Broj stranica - do 10 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
+        tehnologijeIzrada2:'Broj stranica - do 20 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
+        tehnologijeIzrada3:'Broj stranica - do 30 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Katalog proizvoda Neograničen broj kategorija Neograničen broj proizvoda Napredna SEO optimizacija.',
         tehnologijeCena1:"Cena",
 
 
-        konataktNaslov:'Pošaljite nam prouku',
+        konataktNaslov:'Pošaljite nam poruku',
         nameLastname:'Ime i prezime',
         phoneNumber:'Telefon', 
-        emailAdressa:"Email",
+        emailAdressa:"E-mail",
         message:'Poruka',
         messageText:'Ostavite komentar ovde',
-        kontaktText:'Poruke mogu biti vezane za generalne poslovne upite a mi ćemo se potruditi da odgovorimo i na druge vrste upita.Otvoreni smo za poslovne predloge i poštujemo svaku ideju. ',
+        kontaktText:'Poruke mogu biti vezane za generalne poslovne upite a mi ćemo se potruditi da odgovorimo i na druge vrste upita. Otvoreni smo za poslovne predloge i poštujemo svaku ideju. ',
 
     })
 
@@ -175,17 +175,17 @@ serbianLang(){
         navic1:'Početna',
         navic2:'Tehnologije',
         navic3:'Projekti',
-        navic4:'Cене',
+        navic4:'Cеnе',
         navic5:'Kontakt',
         ostvariSvojeSnove:'Ostvari svoje snove',
         navic6:<ReactCountryFlag countryCode="RS" svg />,
         uslugeNaslov:'Naše Usluge',
-        uslugeWeb:"Konsultacije i razvoj za izgradnju Vašeg profila na internetu.Nudimo usluge dizajna i razvoja,vaših internet stranica,e commerce prodavnica,prepravke i dorada starijih internet stranica.",
-        uslugeEcomm:'Rješenja za e-commerce sajtove za bilo kakvu skalu web prodaje. Mi nudimo integraciju sa najpopularnijim načinima plaćanja,PayPal i konvecionalnu vrsta plaćanja.',
-        uslugeApi:'Izrada najboljih API, za vas biznis.Ucinite da vas biznis predje na drugi nivo, i budite u toku sa najnovijim tehnlogijama.Izrada API po meri za vas biznisa : mali,srednji,profesionalni biznis model.',
-        uslugeFull:'Izrada full stack websajtova ,e-commerc prodavnica.Sa kustum domejnom , i ssl sertifikatom.Integrisanje data baze sa login i signup stranicom sa ssl sertifikatom.Zajedno do resenja u tri koraka :Planiranje,Dizajn,Pustanje u rad.',
+        uslugeWeb:"Konsultacije za izgradnju i razvoj Vašeg profila na internetu. Nudimo usluge dizajna i razvoja Vaših internet stranica, e-commerce prodavnica, prepravke i modernizacija starijih internet stranica.",
+        uslugeEcomm:'Rešenja za e-commerce sajtove za web prodaju. Mi nudimo integraciju sa najpopularnijim načinima plaćanja (PayPal i konvecionalnu vrsta plaćanja).',
+        uslugeApi:'Izrada najboljih API (Application program interface) za Vaš biznis. Učinite da Vaš biznis pređe na drugi nivo, budite u toku sa najnovijim tehnologijama. Izrada API po meri Vašeg biznisa: mali, srednji, profesionalni biznis model.',
+        uslugeFull:'Izrada full stack web sajtova i e-commerce prodavnica. Sa custom domain-om i ssl sertifikatom. Integrisanje data baze sa Log in i Sign up stranicom sa ssl sertifikatom. Zajedno do rešenja u tri koraka: Planiranje, Dizajn, Puštanje u rad.',
         tehnolgijeNaslov:'Tehnlogije',
-        tehnolgijeDonjText:'Budite u koraku sa vremenom i najnovijim tehnolgijama .Izbor je na vama.',
+        tehnolgijeDonjText:'Budite u koraku sa vremenom i najnovijim tehnologijama. Izbor je na Vama.',
         projektiNaslov:'Projekti',
 
 
@@ -194,17 +194,17 @@ serbianLang(){
 
 
         tehnlogijeIzradaNaslov:'Proizvodnja u tri koraka:',
-        tehnologijeIzrada1:'Broj stranica - do 10 Mi popunjavamo do 10 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
-        tehnologijeIzrada2:'Broj stranica - neograničen Mi popunjavamo do 20 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
-        tehnologijeIzrada3:'Broj stranica - neograničen Mi popunjavamo do 30 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Katalog proizvoda Neograničen broj kategorija Neograničen broj proizvoda Napredna SEO optimizacija.',
+        tehnologijeIzrada1:'Broj stranica - do 10 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
+        tehnologijeIzrada2:'Broj stranica - do 20 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Osnovna SEO optimizacija.',
+        tehnologijeIzrada3:'Broj stranica - do 30 stranica CSS responsive originalan dizajn Administratorski deo sajta Upload sistem za slike i dokumenta Kontakt Forma Online text editor Galerija slika na svakoj stranici Katalog proizvoda Neograničen broj kategorija Neograničen broj proizvoda Napredna SEO optimizacija.',
         tehnologijeCena1:"Cena",
-        konataktNaslov:'Pošaljite nam prouku',
+        konataktNaslov:'Pošaljite nam poruku',
         nameLastname:'Ime i prezime',
         phoneNumber:'Telefon', 
-        emailAdressa:"Email",
+        emailAdressa:"E-mail",
         message:'Poruka',
         messageText:'Ostavite komentar ovde',
-        kontaktText:'Poruke mogu biti vezane za generalne poslovne upite a mi ćemo se potruditi da odgovorimo i na druge vrste upita.Otvoreni smo za poslovne predloge i poštujemo svaku ideju. ',
+        kontaktText:'Poruke mogu biti vezane za generalne poslovne upite a mi ćemo se potruditi da odgovorimo i na druge vrste upita. Otvoreni smo za poslovne predloge i poštujemo svaku ideju.',
 
     })
     let hex=document.querySelector('.hex')
@@ -224,12 +224,12 @@ englishLang(){
         ostvariSvojeSnove:'Make your dreams come true',
         navic6:<ReactCountryFlag countryCode="GB" svg />,
         uslugeNaslov:'Our Services',
-        uslugeWeb:'Consulting and development for building Your profile on the web. We provide design & development your internet websites,e-commerce shops,alterations and refinements of older websites.',
-        uslugeEcomm:'Solutions for e-commerce sites for any scale of web sales. We offer integration with the most popular payment methods, PayPal and conventional payment types.',
-        uslugeApi:'Creating the best APIs, for you business.Make your business take you to another level, and stay up to date with the latest technology.Custom API development for you business: small, medium, professional business model.',
-        uslugeFull:'Development of full stack websites, e-commerce stores.With a custom domain, and ssl certificate.Integrate database with login and signup page with ssl certificate.ther to a solution in three steps:Planning, Design, Commissioning.',
+        uslugeWeb:'Consultations for building and developing your profile on the Internet. We offer design and development services for your website, e-commerce stores, remodeling and modernization of older websites.',
+        uslugeEcomm:'Solutions for e-commerce sites for web sales. We offer integration with the most popular payment methods (PayPal and conventional payment types).',
+        uslugeApi:'Creating the best API (Application program interface) for your business. Make your business go to another level, stay up to date with the latest technologies. Creating an API tailored to your business: small, medium, professional business model.',
+        uslugeFull:'Development of full stack websites and e-commerce stores. With custom domain and ssl certificate. Integrate the database with the Log in and Sign up page with ssl certificate. Together to a solution in three steps: Planning, Design, Commissioning.',
         tehnolgijeNaslov:'Technologies',
-        tehnolgijeDonjText:"Keep up with the time and the latest technologies its' up to you.",
+        tehnolgijeDonjText:"Keep up with the latest technologies its' up to you.",
         projektiNaslov:'Projects',
 
 
@@ -238,14 +238,14 @@ englishLang(){
 
 
         tehnlogijeIzradaNaslov:'Production in three steps:',
-        tehnologijeIzrada1:'Number of pages - up to 10 We fill up to 10 pages CSS responsive original design Site administration Upload system for images and documents Contact Form Online text editor Image gallery on each page Basic SEO optimization.',
-        tehnologijeIzrada2:'Number of pages - unlimited We fill up to 20 pages CSS responsive original design Site administration Upload system for images and documents Contact Form Online text editor Image gallery on each page Basic SEO optimization.',
-       tehnologijeIzrada3:'Number of pages - unlimited We fill up to 30 pages CSS responsive original design Site administration Upload system for images and documents Contact Form Online text editor Image gallery on each page Product catalog Unlimited number of categories Unlimited number of products Advanced SEO optimization.',
+        tehnologijeIzrada1:'Number of pages - up to 10 pages CSS responsive original design Site administration Upload system for images and documents Contact Form Online text editor Image gallery on each page Basic SEO optimization.',
+        tehnologijeIzrada2:'Number of pages - up to 20 pages CSS responsive original design Site administration Upload system for images and documents Contact Form Online text editor Image gallery on each page Basic SEO optimization.',
+       tehnologijeIzrada3:'Number of pages - up to 30 pages CSS responsive original design Site administration Upload system for images and documents Contact Form Online text editor Image gallery on each page Product catalog Unlimited number of categories Unlimited number of products Advanced SEO optimization.',
         tehnologijeCena1:"Price",
         konataktNaslov:'Send us a study',
         nameLastname:'Name & lastname',
         phoneNumber:'Phone', 
-        emailAdressa:"Email",
+        emailAdressa:"E-mail",
         message:'Message',
         messageText:'Leave a comment here',
         kontaktText:'Messages can be related to general business inquiries and we will do our best to answer other types of inquiries as well. We are open to business proposals and we respect every idea.'
@@ -338,6 +338,7 @@ render() {
               
                  let navic =document.getElementById('navic')
                  navic.style.display='block'
+                
                  let bar =document.querySelector('.bar')
                  bar.style.transform='rotate(360deg)'
                  bar.style.transition='1200ms'
