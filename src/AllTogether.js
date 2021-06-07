@@ -129,7 +129,7 @@ export default class AllTogether extends Component {
 }
 componentDidMount(){
     this.setState({
-        navic1:'Početna',
+        navic1:'Pocetna',
         navic2:'Tehnologije',
         navic3:'Projekti',
         navic4:'Cеnе',
@@ -172,7 +172,7 @@ componentDidMount(){
 }
 serbianLang(){
     this.setState({
-        navic1:'Početna',
+        navic1:'Pocetna',
         navic2:'Tehnologije',
         navic3:'Projekti',
         navic4:'Cеnе',
