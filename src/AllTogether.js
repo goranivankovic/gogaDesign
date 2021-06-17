@@ -1271,7 +1271,7 @@ gogadesignweb@gmail.com
 <br></br>
 
 
-<AiFillPhone />  +381 / 064-xxx-xx-xx
+<AiFillPhone />  +381 / 064-415-68-13
 
 </Col>
 
@@ -2165,7 +2165,7 @@ gogadesignweb@gmail.com
                          <br></br>
                     
 
-                          <AiFillPhone />  +381 / 064-xxx-xx-xx
+                          <AiFillPhone />  +381 / 064-415-68-13
 
                          </Col>
 
