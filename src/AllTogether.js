@@ -288,32 +288,7 @@ sendEmailAndMessage(p){
 
 
 render() {
-    function scrollFunction(){
-        let navicDiv=document.querySelector('.navic')
-        if (window.scrollY >= 80) {
-            navicDiv.style.backgroundColor='white'
-            navicDiv.style.borderBottomLeftRadius='10px'
-            navicDiv.style.borderBottomRightRadius='10px'
-           
-            
-        }else{
-      
-            navicDiv.style.backgroundColor='transparent'
-
-        }
- 
-    }
-
-    if (window.matchMedia("(max-width: 768px)").matches) {
-      console.log(' The viewport is less than, or equal to, 700 pixels wide');  
-      } else {
-       
-             window.onscroll = function() {scrollFunction()}; 
-       
-        
-       
-      }
-
+   
 
     
     

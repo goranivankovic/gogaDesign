@@ -21,6 +21,7 @@
   font-family: 'Quicksand', sans-serif;
 
 
+
 }
 
 .slikeRazvoj{
@@ -43,6 +44,7 @@
     /* border-top: 8px solid lightslategray; */
     background-color: rgb(156, 183, 211);
     /* border-bottom: 8px solid lightslategray; */
+
   
 }
 
@@ -52,6 +54,7 @@ width: 100%;
 z-index: 7;
 transform: skewY(4deg);
 font-family: 'Quicksand', sans-serif;
+
 
 
 }
