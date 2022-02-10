@@ -95,6 +95,7 @@ img{
     align-items: center;
     justify-content: space-around;
     font-size: 1.3rem;
+
  
 
 }
@@ -196,7 +197,8 @@ img{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
      
     
     }
@@ -218,7 +220,8 @@ img{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: .9rem;
+        font-size: 1.1rem;
+        text-align: center;
      
     
     }
@@ -233,13 +236,15 @@ img{
 
     .footerDiv{
         height: 15vh;
-        width: 95%;
+        width: 90%;
         transform: skewY(4deg);
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: .8rem;
+        font-size: 1.1rem;
+        text-align: center;
      
+
     
     }
 
@@ -247,25 +252,6 @@ img{
   }
 
 
-  
-  @media only screen and (max-width: 456px) {
-  
-
-
-    .footerDiv{
-        height: 15vh;
-        width: 95%;
-        transform: skewY(4deg);
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: .7rem;
-     
-    
-    }
-
- 
-  }
 
 
   @media only screen and (max-width: 391px) {
@@ -274,12 +260,13 @@ img{
 
     .footerDiv{
         height: 15vh;
-        width: 95%;
+        width: 90%;
         transform: skewY(4deg);
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: .6rem;
+        font-size: 1rem;
+        text-align: center;
      
     
     }
